@@ -175,6 +175,16 @@ Understanding which features contribute most to the model's predictions enhances
 
 ---
 
+### 🚀 Live App Preview
+
+You can try the deployed diagnostic tool below. This interactive interface allows clinicians or researchers to input tumor features and receive instant classification feedback:
+
+![App Screenshot](outputs/figures/app_screenshot.png)
+
+🔗 [Try it live on Hugging Face Spaces](https://huggingface.co/spaces/EmilioAI/breast-cancer-diagnosis)
+
+---
+
 ## 🔁 Cross-Validation
 
 5-fold cross-validation was applied to the final model to validate its generalizability (Using `StratifiedKFold` with `random_state=42`):
